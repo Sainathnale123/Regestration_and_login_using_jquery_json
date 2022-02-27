@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="handler.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row vertical-center">
+           <form class="col-xs-8 col-xs-offset-2  col-sm-6 col-sm-offset-3 col-md-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
+            <div class="loginform">  
+            <h1>Sign In</h1>
+              <p>
+                 <label class="sr-only" for="">Email Address</label>
+                 <input class="form-control" type="email" placeholder="Email Address" id="emailsign">
+              </p>
+              <p>
+                 <label class="sr-only" for="">Password</label>
+                 <input class="form-control" type="password" placeholder="Password" id="password_sign">
+              </p>
+              <p class="checkbox">
+                 <label><input type="checkbox">Remember Me</label>
+              </p>
+              <button class="btn btn-primary btn-block" type="sumbit" id="Sign_in">Sign In</button>
+              <button class="btn btn-primary btn-block" type="sumbit" id="switch_reg">Registration Here</button>
+
+            </div>
+            <div class="regerstration">
+                <h1>regerstration</h1>
+              <p>
+                 <label class="sr-only" for="">Email Address</label>
+                 <input class="form-control" id="emailreg" type="email" placeholder="Email Address" required >
+              </p>
+              <p>
+                 <label class="sr-only" for="">Password</label>
+                 <input class="form-control" id="password_save" type="password" placeholder="Password" >
+              </p>
+              <button class="btn btn-primary btn-block" type="sumbit" id="reg">Registration</button>
+              <button class="btn btn-primary btn-block" type="sumbit" id="switch_login">Login Here</button>
+            </div>
+            <div class="welcome">
+                <h1>Welcome friend</h1>
+            </div>
+           </form>
+           
+        </div>
+     </div>
+</body>
+</html>

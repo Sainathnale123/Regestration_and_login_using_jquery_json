@@ -1,0 +1,14 @@
+.vertical-center {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+ }
+ .regerstration{
+     display: none;
+ }
+ .welcome {
+    text-align: center;
+}
+.welcome {
+    display: none;
+}
